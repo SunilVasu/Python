@@ -39,7 +39,7 @@ def nn():
         # update weights
         syn0 += np.dot(l0.T, l1_delta)
 
-    print("Output After Training:")
+    print("Output After Training :")
     print(l1)
     return syn0
 
